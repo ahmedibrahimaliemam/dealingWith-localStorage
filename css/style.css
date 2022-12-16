@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.colors{
+    width: 60%;
+    height: 300xp;
+    margin: auto;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+}
+.colors .active{
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.colors div{
+    opacity: 0.5;
+}
+.one{
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+.two{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+}
+.three{
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
+.four{
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+}
+.back-ground{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: red;
+}
